@@ -1,0 +1,35 @@
+# Copy this file, rename it to firstname-lastname-capstone.yml (use hyphens, no spaces),
+# and place it in the projects/ folder. Then open a pull request!
+#
+# Required fields: title, student
+# All other fields are optional but encouraged.
+
+title: "Stegosaurus"          # Your project title
+
+student: "George Perdrizet"        # Your full name
+
+tagline: "Hide secret messages inside naturally-generated text using next-token probability steering"        # One sentence — shown on the list page
+
+description: >
+    # Hide secret messages inside naturally-generated text using
+    # a large language model. A message is encoded into cover text
+    # by steering next-token selection at each step; a recipient
+    # with the same model can recover the original message
+    # deterministically.
+
+repo: "https://github.com/gperdrizet/stegosaurus"           # https://github.com/your-username/your-repo
+
+demo: "https://hypotext.app/"           # https://your-live-demo.example.com
+
+# Contact info (all optional — omitted from the page if blank)
+email: "george.perdrizet@fullstackacademy.com"          # your@email.com
+website: ""        # https://yoursite.com
+linkedin: "gperdrizet"       # your LinkedIn username (not the full URL)
+twitter: ""        # your handle, with or without the @
+github: "gperdrizet"         # your GitHub username
+
+# Images — add files to the headshots/ and screenshots/ folders in the repo root.
+# Name them: firstname_lastname_headshot.png and firstname_lastname_screenshot.png
+# The build script picks them up automatically — no changes needed here.
+
+tags: []           # e.g. [React, Node.js, PostgreSQL]
