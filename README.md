@@ -2,7 +2,7 @@
 
 A community-maintained showcase of student capstone projects. The site is automatically built from YAML files and deployed to GitHub Pages whenever a pull request is merged into `main`.
 
-**Live site:** https://fullstackacademy.github.io/2510-capstones/
+**Live site:** https://fullstackacademy.github.io/2510-capstones
 
 ---
 

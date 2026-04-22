@@ -8,17 +8,18 @@ title: ""          # Your project title
 
 student: ""        # Your full name
 
-tagline: ""        # One sentence — shown on the list page
+tagline: ""        # One sentence - shown on the list page
 
+# Replace the example text below with your own description.
 description: >
-  # Add a paragraph or two about what your project does,
-  # what problem it solves, and any interesting technical details.
+  My project does X and solves the problem of Y. I built it with Z technologies.
+  Add a second sentence with any interesting technical detail here.
 
 repo: ""           # https://github.com/your-username/your-repo
 
 demo: ""           # https://your-live-demo.example.com
 
-# Contact info (all optional — omitted from the page if blank)
+# Contact info (all optional - omitted from the page if blank)
 email: ""          # your@email.com
 website: ""        # https://yoursite.com
 linkedin: ""       # your LinkedIn username (not the full URL)

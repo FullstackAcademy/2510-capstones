@@ -11,11 +11,11 @@ student: "George Perdrizet"        # Your full name
 tagline: "Hide secret messages inside naturally-generated text using next-token probability steering"        # One sentence — shown on the list page
 
 description: >
-    # Hide secret messages inside naturally-generated text using
-    # a large language model. A message is encoded into cover text
-    # by steering next-token selection at each step; a recipient
-    # with the same model can recover the original message
-    # deterministically.
+    Hide secret messages inside naturally-generated text using
+    a large language model. A message is encoded into cover text
+    by steering next-token selection at each step; a recipient
+    with the same model can recover the original message
+    deterministically.
 
 repo: "https://github.com/gperdrizet/stegosaurus"           # https://github.com/your-username/your-repo
 
@@ -32,4 +32,8 @@ github: "gperdrizet"         # your GitHub username
 # Name them: firstname_lastname_headshot.png and firstname_lastname_screenshot.png
 # The build script picks them up automatically — no changes needed here.
 
-tags: []           # e.g. [React, Node.js, PostgreSQL]
+tags:
+  - LLM
+  - Python
+  - NLP
+  - Steganography
