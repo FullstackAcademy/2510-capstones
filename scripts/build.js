@@ -99,6 +99,7 @@ function shell(title, bodyHtml) {
         <img src="/2510-capstones/assets/logo.png" alt="Fullstack Academy" height="36" />
       </a>
       <a class="site-title" href="/2510-capstones/">AI/ML Cohort 2510: Student Capstone Projects</a>
+      <a class="site-link" href="https://www.fullstackacademy.com" target="_blank" rel="noopener noreferrer">fullstackacademy.com</a>
     </div>
   </header>
   <main>
@@ -259,6 +260,17 @@ header {
 }
 
 .site-title:hover { color: var(--red); }
+
+.site-link {
+  margin-left: auto;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.site-link:hover { color: var(--red); }
 
 main {
   flex: 1;

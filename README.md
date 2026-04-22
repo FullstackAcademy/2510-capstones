@@ -8,26 +8,31 @@ A community-maintained showcase of student capstone projects. The site is automa
 
 ## How to add your project
 
-1. **Fork** this repository and create a new branch (e.g. `add/your-project-name`).
+1. **Fork** this repository using the Fork button on GitHub.
 
-2. **Copy** `projects/_template.yml` to a new file in the same folder, named after yourself:
+2. **Clone your fork** locally or open it in a Codespace:
+   ```bash
+   git clone https://github.com/your-username/2510-capstones.git
+   ```
+
+3. **Copy** `projects/_template.yml` to a new file in the same folder, named after yourself:
    ```
    projects/firstname-lastname-capstone.yml
    ```
-   Use lowercase letters and hyphens — no spaces.
+   Use lowercase letters and hyphens, no spaces.
 
-3. **Fill in** your project details. Only `title` and `student` are required; everything else is optional but encouraged.
+4. **Fill in** your project details. Only `title` and `student` are required; everything else is optional but encouraged.
 
-4. **Add images** (optional) to the repo root folders — name them after yourself with hyphens:
+5. **Add images** (optional) to the repo root folders, named after yourself with hyphens:
    ```
    headshots/firstname-lastname-headshot.png
    screenshots/firstname-lastname-screenshot.png
    ```
-   The build script picks them up automatically — no YAML changes needed.
+   The build script picks them up automatically; no YAML changes needed.
 
-5. **Open a pull request** back to `main`.
+6. **Open a pull request** from your fork back to `main` on this repo.
 
-5. Once merged, your project appears on the live site within a minute or two.
+7. Once merged, your project appears on the live site within a minute or two.
 
 ### YAML fields
 
